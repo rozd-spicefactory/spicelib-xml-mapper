@@ -3,16 +3,13 @@
   <component name="FlexBuildConfigurationManager" active="spicelib-xml-mapper">
     <configurations>
       <configuration name="spicelib-xml-mapper" pure-as="true" output-type="Library" output-file="spicelib-xml-mapper-3.0.2.swc" output-folder="$MODULE_DIR$/bin">
-        <dependencies target-player="20.0">
+        <dependencies target-player="32.0">
           <entries>
-            <entry module-name="spicelib-util" build-configuration-name="spicelib-util">
-              <dependency linkage="External" />
-            </entry>
-            <entry module-name="spicelib-reflect" build-configuration-name="spicelib-reflect">
+            <entry library-id="ca53c1d8-64cb-4934-ba86-9b90e35d3601">
               <dependency linkage="External" />
             </entry>
           </entries>
-          <sdk name="20.0.0" />
+          <sdk name="33.0.2.338" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -28,9 +25,18 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
     </content>
-    <orderEntry type="jdk" jdkName="20.0.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="33.0.2.338" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="spicelib-util" exported="" />
-    <orderEntry type="module" module-name="spicelib-reflect" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ca53c1d8-64cb-4934-ba86-9b90e35d3601" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
